@@ -23,7 +23,6 @@ section{padding:60px 0}
 .hero h1 span{background:#0BB08C;padding:4px 12px 4px 6px;margin-left:-6px}
 .hero p{font-size:24px;font-weight:300;margin:6px 0 24px}
 @media (max-width:400px){.hero{height:600px;padding-top:140px}.hero h1{font-size:20px}.hero p{font-size:16px}}
-/* ===== SERVICES ===== */
 .services__row{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;margin-bottom:80px}
 .services__text h3{font:600 20px 'Roboto','Montserrat',sans-serif;color:#1572B6;margin-bottom:20px}
 .services__text p{font-size:15px;font-weight:300;margin-bottom:10px}
