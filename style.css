@@ -56,7 +56,6 @@ section{padding:60px 0}
 .stat--dl{background:#1572B6;color:#fff;font-size:28px;display:flex;flex-direction:column;justify-content:center}
 .stat--dl span{color:#fff;font-size:13px;font-weight:600}
 @media (max-width:400px){.tabs{grid-template-columns:1fr 1fr}.markets__body{grid-template-columns:1fr}.markets__stats{margin:0;max-width:none}.manager{margin-top:24px}}
-/* ===== ABOUT ACCELERATOR ===== */
 .about-acc h2{margin-bottom:20px}
 .lead{font-size:15px;font-weight:300;margin-bottom:12px;max-width:780px}
 .feat{height:142px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
@@ -67,7 +66,6 @@ section{padding:60px 0}
 .video p{font-size:13px;font-weight:600}
 .play{width:58px;height:58px;border:0;border-radius:50%;background:#3D8BF2;color:#fff;font-size:22px;cursor:pointer}
 @media (max-width:400px){.video{height:200px}.feat{height:110px}}
-/* ===== PROGRAM ===== */
 .module{margin-bottom:10px;font-size:14px}
 .module summary{list-style:none;cursor:pointer;padding:0 25px;height:43px;display:flex;align-items:center;gap:8px;position:relative}
 .module summary::-webkit-details-marker{display:none}
@@ -80,7 +78,6 @@ section{padding:60px 0}
 .demo{padding:0 25px;height:43px;line-height:43px;font-size:14px}
 .program .btn{margin-top:10px}
 @media (max-width:400px){.module summary{height:auto;min-height:43px;padding:10px 40px 10px 14px;display:block}.module li{height:auto;line-height:1.4;padding:8px 14px}}
-/* ===== RADAR ===== */
 .radar{padding:30px 0}
 .radar__inner{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;min-height:190px}
 .radar h2{color:#fff;font-size:24px;margin-bottom:18px;line-height:1.5}
@@ -89,9 +86,7 @@ section{padding:60px 0}
 .logo-box{background:#fff;border-radius:4px;height:56px;display:grid;place-items:center;font-weight:700;font-size:15px;color:#1b3a5c}
 .f6s{color:#fff;background:#F0583C;width:40px;height:40px;margin:auto;border-radius:50%;font-size:14px;height:56px;width:56px}
 @media (max-width:400px){.radar__inner{grid-template-columns:1fr}.logos{margin:0;max-width:none}}
-/* ===== RESULTS (использует .grid3 и .tile из секции "Для кого мы") ===== */
 .results__grid{row-gap:10px}
-/* ===== PRICING ===== */
 .plan{display:flex;flex-direction:column;padding-bottom:36px;font-size:12px}
 .plan__head{text-align:center;padding:14px 20px 14px;min-height:104px}
 .plan__head span{font-size:38px;line-height:1}
@@ -103,7 +98,6 @@ section{padding:60px 0}
 .plan__row b{color:#1572B6}
 .plan .btn{margin:18px 20px 0;text-align:center}
 @media (max-width:400px){.plan .btn{margin:16px 20px 0}}
-/* ===== ABOUT US ===== */
 .about-us__top{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-bottom:60px}
 .dash{height:230px;border-radius:8px;display:grid;place-items:center;font-size:90px;background:linear-gradient(135deg,#eef4fb,#dbe8f6)}
 .about-us__text p{font-size:14px;font-weight:400;margin-bottom:34px;max-width:430px}
@@ -117,7 +111,6 @@ section{padding:60px 0}
 .photos div{height:80px;border-radius:6px;background:linear-gradient(135deg,#3a1d6e,#c5407e)}
 .photos div:nth-child(even){background:linear-gradient(135deg,#7a8aa3,#2b3a55)}
 @media (max-width:400px){.about-us__top,.founder{grid-template-columns:1fr;gap:20px}.founder{padding:20px}.dash{height:150px}.photos{grid-template-columns:repeat(3,1fr)}}
-/* ===== EXPERTS ===== */
 .experts__slider{display:flex;align-items:center;justify-content:space-between;gap:10px}
 .arrow{width:20px;height:20px;border:0;border-radius:50%;background:#1572B6;color:#fff;cursor:pointer;flex-shrink:0;line-height:1}
 .experts__list{display:grid;grid-template-columns:repeat(4,1fr);gap:40px;flex:1;padding:0 30px}
@@ -126,16 +119,13 @@ section{padding:60px 0}
 .expert h4{font-size:12px;font-weight:700;margin-bottom:8px}
 .expert p{font-size:10px;color:#666;line-height:1.5}
 @media (max-width:400px){.experts__list{grid-template-columns:1fr 1fr;gap:20px;padding:0 6px}}
-/* ===== PARTNERS ===== */
 .partners__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
 .partners__grid .card{height:50px;display:grid;place-items:center;font-weight:700;font-size:14px;color:#2b3a55}
 @media (max-width:400px){.partners__grid{grid-template-columns:1fr 1fr}}
-/* ===== COMMUNITY ===== */
 .community{height:420px;padding-top:118px;text-align:center;color:#fff;background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(images/community.jpg) center/cover,#4a3f35}
 .community h2{color:#fff;font-size:24px;margin-bottom:14px;line-height:1.6}
 .community p{font-size:14px;margin-bottom:22px}
 @media (max-width:400px){.community{height:auto;padding:50px 0}.community h2{font-size:18px}.community br{display:none}}
-/* ===== EVENTS ===== */
 .event{overflow:hidden;display:flex;flex-direction:column;min-height:380px}
 .event__img{height:156px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:44px;text-align:center;line-height:1.1}
 .e1{background:#F2565E}.e2{background:linear-gradient(135deg,#0a4aa6,#1e9be0)}.e3{background:linear-gradient(135deg,#1b1450,#7b3fb0);font-size:20px}
@@ -144,7 +134,6 @@ section{padding:60px 0}
 .event p{font-size:12px;line-height:2;flex:1}
 .event time{font-size:10px;margin-top:14px}
 @media (max-width:400px){.event{min-height:0}.event__img{font-size:32px}}
-/* ===== CONTACT ===== */
 .contact{padding:36px 0;min-height:492px}
 .contact__inner{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
 .contact h2{color:#fff;font-size:24px;margin-bottom:16px}
@@ -158,7 +147,6 @@ section{padding:60px 0}
 .contact__form input{width:100%;border:0;border-bottom:1px solid #ddd;padding:14px 0;font:12px 'Montserrat',sans-serif;outline:none;margin-bottom:6px}
 .contact__form .btn{margin-top:18px;padding:16px 22px}
 @media (max-width:400px){.contact__inner{grid-template-columns:1fr}.contact__form{margin:0;max-width:none}.contact__left p{margin-bottom:24px}.contact{min-height:0}}
-/* ===== FOOTER ===== */
 .footer{color:#fff;padding:24px 0;background:linear-gradient(rgba(5,30,50,.85),rgba(5,30,50,.85)),url(images/hero.jpg) center/cover,#0a3050}
 .footer__inner{display:grid;grid-template-columns:1fr 2fr 1fr;align-items:start;gap:20px}
 .footer p{font-size:9px;margin-top:6px}
