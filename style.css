@@ -41,7 +41,6 @@ section{padding:60px 0}
 .banner h2{display:inline-block;background:#0BB08C;color:#fff;font-size:26px;text-transform:uppercase;line-height:1.5;padding:4px 25px;margin-bottom:12px}
 .banner p{font-size:17px;margin-bottom:26px}
 @media (max-width:400px){.banner{height:auto;padding:50px 0}.banner h2{font-size:15px}.banner p{font-size:13px}}
-/* ===== MARKETS ===== */
 .tabs{display:grid;grid-template-columns:repeat(4,1fr);margin-bottom:30px;border-radius:4px;overflow:hidden}
 .tabs button{padding:16px;border:0;border-left:1px solid #fff;background:#eaeff3;font:500 13px 'Montserrat',sans-serif;color:#555;cursor:pointer}
 .tabs .active{background:#86B9DA;color:#fff;font-weight:700}
