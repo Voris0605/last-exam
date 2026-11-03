@@ -36,7 +36,6 @@ section{padding:60px 0}
 .tile h4{font-size:15px;font-weight:600;margin:14px 0 14px}
 .tile p{font-size:12px;font-weight:400;color:#555;line-height:1.6}
 @media (max-width:400px){.grid3{grid-template-columns:1fr}}
-/* ===== BANNER ===== */
 .banner{height:604px;padding:134px 0 0;text-align:center;color:#fff;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url(images/banner.jpg) center/cover,#3a2f28}
 .banner h2{display:inline-block;background:#0BB08C;color:#fff;font-size:26px;text-transform:uppercase;line-height:1.5;padding:4px 25px;margin-bottom:12px}
 .banner p{font-size:17px;margin-bottom:26px}
