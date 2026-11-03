@@ -30,7 +30,6 @@ section{padding:60px 0}
 .services__img{height:220px;display:grid;place-items:center;font-size:110px;background:radial-gradient(circle,#d7eef5 40%,transparent 41%)}
 .services__row--rev{grid-template-columns:1fr 1fr}
 @media (max-width:400px){.services__row,.services__row--rev{grid-template-columns:1fr;gap:20px;margin-bottom:40px}.services__row--rev .services__img{order:-1}.services__img{height:140px;font-size:70px}}
-/* ===== FOR WHOM (общая сетка .grid3 и .tile используется и в "Результатах") ===== */
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .tile{padding:36px 24px 30px;text-align:center}
 .tile h4{font-size:15px;font-weight:600;margin:14px 0 14px}
